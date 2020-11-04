@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.super_container {
+    /* background-color: red; */
+    margin: 1% 15% 0 15%;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+/* company name  */
+
+.sub_text {
+    /* background-color: red; */
+    margin-bottom: -2%;
+}
+
+#com_name {
+    font-size: large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    margin-bottom: -2%;
+}
+
+#brown {
+    color: brown;
+}
+
+#pink {
+    color: rgb(77, 21, 30);
+}
+
+#green {
+    color: green;
+    margin-bottom: -1%;
+}
+
+.container_main {
+    /* background-color: red; */
+    font-size: larger;
+    font-weight: bolder;
+    font-style: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.form-inline {
+    padding-bottom: 1%;
+    justify-content: center;
+}
+
+#search {
+    padding-right: 1%;
+}
+
+.submit {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    /* background-color: red; */
+}
+
+
+/* nav bar hover settings */
+
+.nav-item:hover {
+    background-color: brown;
+}
+
+.top-text {
+    color: brown;
+    font-size: x-small;
+}
